@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ANEHelloWorldExtension' target in the 'ANEHelloWorldExtension' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

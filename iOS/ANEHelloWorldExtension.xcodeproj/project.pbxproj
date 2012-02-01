@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87CC565C14D928F9001DAAAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CC565B14D928F9001DAAAC /* Foundation.framework */; };
+		87CC566214D928F9001DAAAC /* ANEHelloWorldExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CC566114D928F9001DAAAC /* ANEHelloWorldExtension.m */; };
+		87CC566914D9291E001DAAAC /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CC566814D9291E001DAAAC /* FlashRuntimeExtensions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87CC565814D928F9001DAAAC /* libANEHelloWorldExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANEHelloWorldExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC565B14D928F9001DAAAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87CC565F14D928F9001DAAAC /* ANEHelloWorldExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANEHelloWorldExtension-Prefix.pch"; sourceTree = "<group>"; };
+		87CC566014D928F9001DAAAC /* ANEHelloWorldExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANEHelloWorldExtension.h; sourceTree = "<group>"; };
+		87CC566114D928F9001DAAAC /* ANEHelloWorldExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANEHelloWorldExtension.m; sourceTree = "<group>"; };
+		87CC566814D9291E001DAAAC /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87CC565514D928F9001DAAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC565C14D928F9001DAAAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87CC564D14D928F9001DAAAC = {
+			isa = PBXGroup;
+			children = (
+				87CC566814D9291E001DAAAC /* FlashRuntimeExtensions.h */,
+				87CC565D14D928F9001DAAAC /* ANEHelloWorldExtension */,
+				87CC565A14D928F9001DAAAC /* Frameworks */,
+				87CC565914D928F9001DAAAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87CC565914D928F9001DAAAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CC565814D928F9001DAAAC /* libANEHelloWorldExtension.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87CC565A14D928F9001DAAAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87CC565B14D928F9001DAAAC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87CC565D14D928F9001DAAAC /* ANEHelloWorldExtension */ = {
+			isa = PBXGroup;
+			children = (
+				87CC566014D928F9001DAAAC /* ANEHelloWorldExtension.h */,
+				87CC566114D928F9001DAAAC /* ANEHelloWorldExtension.m */,
+				87CC565E14D928F9001DAAAC /* Supporting Files */,
+			);
+			path = ANEHelloWorldExtension;
+			sourceTree = "<group>";
+		};
+		87CC565E14D928F9001DAAAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87CC565F14D928F9001DAAAC /* ANEHelloWorldExtension-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87CC565614D928F9001DAAAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC566914D9291E001DAAAC /* FlashRuntimeExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		87CC565714D928F9001DAAAC /* ANEHelloWorldExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CC566514D928F9001DAAAC /* Build configuration list for PBXNativeTarget "ANEHelloWorldExtension" */;
+			buildPhases = (
+				87CC565414D928F9001DAAAC /* Sources */,
+				87CC565514D928F9001DAAAC /* Frameworks */,
+				87CC565614D928F9001DAAAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANEHelloWorldExtension;
+			productName = ANEHelloWorldExtension;
+			productReference = 87CC565814D928F9001DAAAC /* libANEHelloWorldExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87CC564F14D928F9001DAAAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 87CC565214D928F9001DAAAC /* Build configuration list for PBXProject "ANEHelloWorldExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87CC564D14D928F9001DAAAC;
+			productRefGroup = 87CC565914D928F9001DAAAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87CC565714D928F9001DAAAC /* ANEHelloWorldExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87CC565414D928F9001DAAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CC566214D928F9001DAAAC /* ANEHelloWorldExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87CC566314D928F9001DAAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87CC566414D928F9001DAAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87CC566614D928F9001DAAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANEHelloWorldExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEHelloWorldExtension/ANEHelloWorldExtension-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		87CC566714D928F9001DAAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANEHelloWorldExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEHelloWorldExtension/ANEHelloWorldExtension-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87CC565214D928F9001DAAAC /* Build configuration list for PBXProject "ANEHelloWorldExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC566314D928F9001DAAAC /* Debug */,
+				87CC566414D928F9001DAAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CC566514D928F9001DAAAC /* Build configuration list for PBXNativeTarget "ANEHelloWorldExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC566614D928F9001DAAAC /* Debug */,
+				87CC566714D928F9001DAAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87CC564F14D928F9001DAAAC /* Project object */;
+}
