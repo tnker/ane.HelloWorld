@@ -1,0 +1,1 @@
+adt -package -target ipa-test -storetype pkcs12 -keystore p12キーPATHを設定 -storepass キーのパスワード -provisioning-profile プロビジョニングファイルPATHを設定 ANEHelloWorldExtension_app.ipa ANEHelloWorldExtension_app-app.xml ANEHelloWorldExtension_app.swf -extdir ext

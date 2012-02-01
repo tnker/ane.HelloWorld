@@ -1,0 +1,1 @@
+adt -package -target apk -storetype pkcs12 -keystore p12キーPATHを設定 -storepass キーのパスワード ANEHelloWorldExtension_app.apk ANEHelloWorldExtension_app-app.xml ANEHelloWorldExtension_app.swf -extdir ext
