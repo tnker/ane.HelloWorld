@@ -1,0 +1,23 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+  <id>com.tnker.ane</id>
+  <versionNumber>1.0</versionNumber>
+  <platforms>
+    <platform name="iPhone-ARM">
+      <applicationDeployment>
+        <nativeLibrary>libANEHelloWorldExtension.a</nativeLibrary>
+        <initializer>ExtInitializer</initializer>
+        <finalizer>ExtFinalizer</finalizer>
+      </applicationDeployment>
+    </platform>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>HelloWorldExtension.jar</nativeLibrary>
+        <initializer>com.tnker.Hello.HelloWorldExtension</initializer>
+        <finalizer>com.tnker.Hello.HelloWorldExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+    <platform name="default">
+      <applicationDeployment/>
+    </platform>
+  </platforms>
+</extension>
